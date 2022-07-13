@@ -14,7 +14,7 @@ print("rounding up pi: " + str(math.ceil(pi)))
 # rounding down a float number:
 print("rounding down pi: " + str(math.floor(pi)))
 
-# absoloute a value -> get a negative value and turn it to positive
+# absolute a value -> get a negative value and turn it to positive
 negative_pi = -3.14
 print("turn negative pi to positive pi: " + str(abs(negative_pi)))
 
