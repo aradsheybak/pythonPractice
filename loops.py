@@ -18,3 +18,13 @@ list_names = ["Arad", "Ali", "Roham", "niloufar"]
 
 for i in range(len(list_names)):
     print(list_names[i])
+########################################################################
+# 3: nested loops
+row = int(input("How many row:"))
+columns = int(input("How many columns:"))
+
+for i in range(row):
+    for j in range(columns):
+        print("*", end="")
+    print()
+#######################################################################
