@@ -48,3 +48,10 @@ for i in phoneNumber:
     print(i,end="")
 
 
+#pass:
+
+for i in range(1,20):
+    if i== 10:
+        pass
+    else:
+        print(i)
