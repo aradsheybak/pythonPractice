@@ -39,3 +39,12 @@ while True:
         break
 
 
+#continue:
+
+phoneNumber = "123-456-789-0"
+for i in phoneNumber:
+    if i=="-":
+        continue
+    print(i,end="")
+
+
